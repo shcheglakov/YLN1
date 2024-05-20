@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.error-message {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Страница регистрации */
+/* Шапка */
+header {
+    height: 130px;
+    background-color: #8A8787;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_link_weight {
+    padding-right: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.menu_link {
+    padding-right: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Форма регистрации */
+.container-form {
+    min-height: 764px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_Reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 418px;
+    height: 532px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.title_form {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+label {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+input {
+    width: 347px;
+    height: 38px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.submit_Reg {
+    width: 277px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.submit_Reg:hover {
+    background-color: #999494;
+    color: white;
+}
+
+/* Футер */
+footer {
+    height: 130px;
+    background-color: #8A8787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Страница авторизации */
+/* Форма авторизации */
+.form_Auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 418px;
+    height: 286px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.submit_Auth {
+    width: 277px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.submit_Auth:hover {
+    background-color: #999494;
+    color: white;
+}
+
+
+/* Страница мои заявки */
+.container-page {
+    min-height: 764px;
+}
+
+.title_a_button {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_page {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.submit_new_order {
+    width: 277px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.submit_new_order:hover {
+    background-color: #999494;
+    color: white;
+}
+
+.orders {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 305px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+
+.number_order {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.data_order {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.status_user {
+    font-weight: bold;
+    color: #6C1212;
+}
+
+
+/* Страница оформления */
+.fillingApllis {
+    padding-top: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.border_img_cars {
+    border-radius: 20px;
+}
+
+.form_FillingAplli {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 244px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+select {
+    width: 357px;
+    height: 38px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.submit_send {
+    width: 277px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.submit_send:hover {
+    background-color: #999494;
+    color: white;
+}
+
+
+/* Страница администратора */
+.orders_user {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.order_user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 428px;
+    height: 287px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+
+.label_status {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6C1212;
+}
+
+.select_status {
+    width: 228px;
+    height: 30px;
+    border-radius: 0px;
+}
